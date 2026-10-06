@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>adidas - Неможливе Можливе</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <header class="header">
+    <div class="header-top">
+      <span class="header-promo">Безкоштовна доставка при замовленні від 2000 грн</span>
+    </div>
+    <nav class="navbar">
+      <div class="nav-container">
+        <a href="#" class="logo">
+          <svg viewBox="0 0 100 60" class="logo-svg">
+            <polygon points="15,55 30,20 45,55" fill="currentColor"/>
+            <polygon points="30,55 45,10 60,55" fill="currentColor"/>
+            <polygon points="45,55 60,5 75,55" fill="currentColor"/>
+          </svg>
+          <span class="logo-text">adidas</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="#new">Новинки</a></li>
+          <li><a href="#men">Чоловікам</a></li>
+          <li><a href="#women">Жінкам</a></li>
+          <li><a href="#kids">Дітям</a></li>
+          <li><a href="#sports">Спорт</a></li>
+          <li><a href="#sale" class="nav-sale">Знижки</a></li>
+        </ul>
+        <div class="nav-icons">
+          <button class="icon-btn" aria-label="Пошук">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+          </button>
+          <button class="icon-btn" aria-label="Аккаунт">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          </button>
+          <button class="icon-btn cart-btn" aria-label="Кошик">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+            <span class="cart-count">0</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-bg-img">
+      <img src="./images/hero-bg.png" alt="adidas hero" />
+      <div class="hero-overlay"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-tag">Колекція Весна 2025</p>
+      <h1 class="hero-title">НЕМОЖЛИВЕ<br/>МОЖЛИВЕ</h1>
+      <p class="hero-subtitle">Виходь за межі. Ламай кордони. Знайди своє місце з найновішим спорядженням adidas для чемпіонів.</p>
+      <div class="hero-buttons">
+        <a href="#men" class="btn btn-primary">Чоловікам</a>
+        <a href="#women" class="btn btn-secondary">Жінкам</a>
+      </div>
+    </div>
+    <div class="hero-badge">
+      <span class="badge-text">Новинка</span>
+    </div>
+  </section>
+
+  <section class="categories" id="new">
+    <div class="container">
+      <h2 class="section-title">Обирай за категорією</h2>
+      <div class="category-grid">
+        <div class="category-card category-large">
+          <div class="category-img">
+            <img src="./images/category-running.png" alt="Бігові кросівки" />
+          </div>
+          <div class="category-info">
+            <h3>Біг</h3>
+            <p>Екіпірування для кожного кілометра</p>
+          </div>
+        </div>
+        <div class="category-card">
+          <div class="category-img">
+            <img src="./images/category-training.png" alt="Тренування" />
+          </div>
+          <div class="category-info">
+            <h3>Тренування</h3>
+            <p>Створено для залу</p>
+          </div>
+        </div>
+        <div class="category-card">
+          <div class="category-img">
+            <img src="./images/category-originals.png" alt="Originals" />
+          </div>
+          <div class="category-info">
+            <h3>Originals</h3>
+            <p>Культова вулична класика</p>
+          </div>
+        </div>
+        <div class="category-card">
+          <div class="category-img">
+            <img src="./images/category-football.png" alt="Футбол" />
+          </div>
+          <div class="category-info">
+            <h3>Футбол</h3>
+            <p>Керуй грою на полі</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="men">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Популярне зараз</h2>
+        <a href="#" class="view-all">Переглянути все</a>
+      </div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-img" style="background-color: #f0f0f0;">
+            <span class="product-badge">Новинка</span>
+            <img src="./images/product-ultraboost.png" alt="Ultraboost Light" />
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Ultraboost Light</h4>
+            <p class="product-category">Бігові кросівки</p>
+            <div class="product-colors">
+              <span class="color-dot" style="background:#000;"></span>
+              <span class="color-dot" style="background:#fff; border: 1px solid #ddd;"></span>
+              <span class="color-dot" style="background:#4a90d9;"></span>
+            </div>
+            <p class="product-price">7 490 ₴</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img" style="background-color: #e8e8e8;">
+            <img src="./images/product-gazelle.png" alt="Gazelle Indoor" />
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Gazelle Indoor</h4>
+            <p class="product-category">Originals</p>
+            <div class="product-colors">
+              <span class="color-dot" style="background:#2e7d32;"></span>
+              <span class="color-dot" style="background:#c62828;"></span>
+              <span class="color-dot" style="background:#1565c0;"></span>
+            </div>
+            <p class="product-price">4 790 ₴</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img" style="background-color: #f5f5f5;">
+            <span class="product-badge badge-sale">-30%</span>
+            <img src="./images/product-samba.png" alt="Samba OG" />
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Samba OG</h4>
+            <p class="product-category">Originals</p>
+            <div class="product-colors">
+              <span class="color-dot" style="background:#000;"></span>
+              <span class="color-dot" style="background:#fff; border: 1px solid #ddd;"></span>
+            </div>
+            <div class="product-price-row">
+              <p class="product-price sale-price">3 290 ₴</p>
+              <p class="product-price original-price">4 690 ₴</p>
+            </div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img" style="background-color: #ebebeb;">
+            <span class="product-badge">Хіт продажів</span>
+            <img src="./images/product-forum.png" alt="Forum Low" />
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Forum Low</h4>
+            <p class="product-category">Originals</p>
+            <div class="product-colors">
+              <span class="color-dot" style="background:#fff; border: 1px solid #ddd;"></span>
+              <span class="color-dot" style="background:#000;"></span>
+            </div>
+            <p class="product-price">4 290 ₴</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="banner">
+    <div class="banner-bg-img">
+      <img src="./images/banner-humanrace.png" alt="Humanrace Collection" />
+      <div class="banner-overlay"></div>
+    </div>
+    <div class="banner-content">
+      <p class="banner-tag">adidas x Pharrell Williams</p>
+      <h2 class="banner-title">HUMANRACE<br/>КОЛЕКЦІЯ</h2>
+      <p class="banner-text">Колаборація, яка святкує індивідуальність і об'єднує культури через спорт та стиль.</p>
+      <a href="#" class="btn btn-white">Дослідити</a>
+    </div>
+  </section>
+
+  <section class="products" id="women">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Вибір жінок</h2>
+        <a href="#" class="view-all">Переглянути все</a>
+      </div>
+      <div class="product-grid">
+        <div class="product-card">
+          <div class="product-img" style="background-color: #f8f0f0;">
+            <span class="product-badge">Новинка</span>
+            <img src="./images/product-ultraboost-women.png" alt="Ultraboost 5" />
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Ultraboost 5</h4>
+            <p class="product-category">Бігові кросівки</p>
+            <div class="product-colors">
+              <span class="color-dot" style="background:#e8b4b8;"></span>
+              <span class="color-dot" style="background:#000;"></span>
+            </div>
+            <p class="product-price">7 890 ₴</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img" style="background-color: #f0f0f8;">
+            <div class="product-placeholder">
+              <svg width="80" height="80" viewBox="0 0 100 60">
+                <polygon points="15,55 30,20 45,55" fill="rgba(0,0,0,0.06)"/>
+                <polygon points="30,55 45,10 60,55" fill="rgba(0,0,0,0.06)"/>
+                <polygon points="45,55 60,5 75,55" fill="rgba(0,0,0,0.06)"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Adilette Comfort</h4>
+            <p class="product-category">Сланці</p>
+            <div class="product-colors">
+              <span class="color-dot" style="background:#b0bec5;"></span>
+              <span class="color-dot" style="background:#000;"></span>
+            </div>
+            <p class="product-price">1 790 ₴</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img" style="background-color: #f0f5f0;">
+            <div class="product-placeholder">
+              <svg width="80" height="80" viewBox="0 0 100 60">
+                <polygon points="15,55 30,20 45,55" fill="rgba(0,0,0,0.06)"/>
+                <polygon points="30,55 45,10 60,55" fill="rgba(0,0,0,0.06)"/>
+                <polygon points="45,55 60,5 75,55" fill="rgba(0,0,0,0.06)"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">Stan Smith Lux</h4>
+            <p class="product-category">Originals</p>
+            <div class="product-colors">
+              <span class="color-dot" style="background:#fff; border: 1px solid #ddd;"></span>
+              <span class="color-dot" style="background:#2e7d32;"></span>
+            </div>
+            <p class="product-price">5 190 ₴</p>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-img" style="background-color: #f5f5f0;">
+            <span class="product-badge badge-sale">-25%</span>
+            <div class="product-placeholder">
+              <svg width="80" height="80" viewBox="0 0 100 60">
+                <polygon points="15,55 30,20 45,55" fill="rgba(0,0,0,0.06)"/>
+                <polygon points="30,55 45,10 60,55" fill="rgba(0,0,0,0.06)"/>
+                <polygon points="45,55 60,5 75,55" fill="rgba(0,0,0,0.06)"/>
+              </svg>
+            </div>
+          </div>
+          <div class="product-info">
+            <h4 class="product-name">NMD_R1</h4>
+            <p class="product-category">Originals</p>
+            <div class="product-colors">
+              <span class="color-dot" style="background:#e0e0e0;"></span>
+              <span class="color-dot" style="background:#000;"></span>
+            </div>
+            <div class="product-price-row">
+              <p class="product-price sale-price">3 740 ₴</p>
+              <p class="product-price original-price">4 990 ₴</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="features">
+    <div class="container">
+      <div class="features-grid">
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3>Безкоштовне повернення</h3>
+          <p>60 днів безкоштовного повернення для всіх замовлень</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="3" width="15" height="13"/><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"/><circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/></svg>
+          </div>
+          <h3>Швидка доставка</h3>
+          <p>Безкоштовна доставка при замовленні від 2000 грн</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          </div>
+          <h3>Бонуси adiClub</h3>
+          <p>Накопичуй бали з кожною покупкою як учасник клубу</p>
+        </div>
+        <div class="feature-item">
+          <div class="feature-icon">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <h3>Підтримка 24/7</h3>
+          <p>Завжди готові допомогти з вашим замовленням</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="newsletter">
+    <div class="container">
+      <div class="newsletter-content">
+        <h2>Приєднуйся до adiClub</h2>
+        <p>Отримуй ексклюзивний доступ, пропозиції тільки для учасників та бали за кожну покупку.</p>
+        <form class="newsletter-form" onsubmit="return false;">
+          <input type="email" placeholder="Введіть ваш email" class="newsletter-input" />
+          <button type="submit" class="btn btn-primary">Приєднатися</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <h4>Продукти</h4>
+          <ul>
+            <li><a href="#">Взуття</a></li>
+            <li><a href="#">Одяг</a></li>
+            <li><a href="#">Аксесуари</a></li>
+            <li><a href="#">Новинки</a></li>
+            <li><a href="#">Хіти продажів</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Спорт</h4>
+          <ul>
+            <li><a href="#">Біг</a></li>
+            <li><a href="#">Футбол</a></li>
+            <li><a href="#">Баскетбол</a></li>
+            <li><a href="#">Тренування</a></li>
+            <li><a href="#">Туризм</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Компанія</h4>
+          <ul>
+            <li><a href="#">Про нас</a></li>
+            <li><a href="#">Кар'єра</a></li>
+            <li><a href="#">Преса</a></li>
+            <li><a href="#">Сталий розвиток</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Підтримка</h4>
+          <ul>
+            <li><a href="#">Допомога</a></li>
+            <li><a href="#">Доставка</a></li>
+            <li><a href="#">Повернення</a></li>
+            <li><a href="#">Таблиця розмірів</a></li>
+            <li><a href="#">Зв'язатися з нами</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="footer-logo">
+          <svg viewBox="0 0 100 60" class="footer-logo-svg">
+            <polygon points="15,55 30,20 45,55" fill="currentColor"/>
+            <polygon points="30,55 45,10 60,55" fill="currentColor"/>
+            <polygon points="45,55 60,5 75,55" fill="currentColor"/>
+          </svg>
+        </div>
+        <p class="footer-copy">&copy; 2025 adidas AG. Усі права захищені.</p>
+        <div class="footer-legal">
+          <a href="#">Політика конфіденційності</a>
+          <a href="#">Умови використання</a>
+          <a href="#">Налаштування файлів cookie</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
